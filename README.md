@@ -5,9 +5,8 @@
 
 
 1.位图的四种写法
-    // 原始方法（没有对齐）
-    
 
+    // 原始方法（没有对齐）
     ofSetColor ( 255 , 255 , 255 ) ;
     
     string output = "Z :: Springs on/off : " + ofToString(springEnabled) +
