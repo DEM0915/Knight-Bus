@@ -76,13 +76,17 @@ ____
 
 	在Draw里面画
 	if( bHide ){
+	
 			gui.draw();
 		}
 		
 	然后在keyPressed里
 	
 	if( key == 'h' ){
+	
 			bHide = !bHide;
+			
+		}
 			
 			
 ____
@@ -93,6 +97,9 @@ ____
 	        ofToggleFullscreen();
 	    }
 	    
+或者在setup里面
+
+ofSetFullscreen();	    
 ____
 	    
 	    
@@ -210,12 +217,14 @@ ____
 	stickie是以移动设备为中心的协同系统。这个项目作为一个有价值的媒介；利用了数字化的方式标注了人们所处环境。Stickie结合智能手机;让人们的可视内容交互延伸到空间。
 	
 	
+____
 
+16.Shader的Uniform语法参照这里:
 
-16.Shader的Uniform语法:[参照这里](http://bgepython.tutorialsforblender3d.com/Shader)
+http://bgepython.tutorialsforblender3d.com/Shader
 
 	
-
+____
 
 17.解决Bug: redefinition 'ofxCvHaarFinder'
 
@@ -241,127 +250,7 @@ ____
 	
 	
 	
-20.经济学人  三月 2015
 
-#书的未来
-##从草纸到像素
-###书籍的撰写、出版和销售方式的数字化变革才刚刚开始
-###死亡语言未成真
-###新型作者遇到新型读者
-###标准每况愈下，日子越来越好
-###思想从过去流传至未来
-#####书的进化将在线下和线上同时发生，而对书的界定也将拓展。人们还会继续认为书是文化得以从过去想未来流传的根本渠道。他们可能不会在像西塞罗写《义务论》那样，尝试用奴隶抄录的手卷向子女传递智慧，甚至也不用印刷物。甚至，可能伏尔泰说的没错，他们中再没有人能写出比两千年前的这本书更有智慧的东西。但那不会是因为不够努力或没有机会，也不会是因为缺少未来的读者要在他们留下的书籍中寻求智慧。
-
-
-21.others
-
-#强盗大亨和硅谷苏丹（美国白手起家的富人）
-###今天的科技界亿万富翁和当年的一代资本巨头有诸多共性，可能多到对自身不利
-
-#改写规则
-###商业模式与法律相抵牾的创新公司多得惊人
-
-#风险与回报
-###数据和科技开始颠覆保险业
-
-#超连接世界
-###阿联酋航空、阿提哈德航空、卡塔尔航空--加上最近崛起的土耳其航空，它们的快速发展看来会持续
-
-#乔布斯2.0
-###一本新书试图重塑全球最著名发明家之一
-
-#吞并或被吞并
-###合并大潮在望，美国大型互联网企业看来将分为猎人和猎物
-
-#玛格丽特与熊(俄罗斯天然气工业股份公司)
-### 欧盟反垄断专员向俄罗斯天然气工业股份公司开刀，带来欧洲政策及燃气业大变革
-
-#晨曦中的红色天空
-###有关抢掠和纠正的励志传奇
-
-#在商言商
-###公司何所为，争论复争论
-
-#快要撞车
-###对汽车制造商而言，来自中国的滚滚利润不会持续
-
-#王朝（家族势力）
-###政商界的家族势力可能让精英制度的信徒感到担忧
-
-#寄希望于去银行化学
-###宣布关闭通用电气的金融部门，杰夫·伊梅尔特在拯救公司的战斗中只赢了一半
-
-#高风险业务（商业与银行混业）
-###给首席执行官的信息：不要试图把公司变成高盛
-
-#撒哈拉以南争斗正酣（外资在非洲）
-###私募股权掀非洲投资热，当地企业需啊各路资本，多多益善
-
-#几内亚“喊犯规”（采矿与腐败）
-###非洲最大的铁矿石开采项目受纷争困扰，工程一再延误
-
-#颠覆者被颠覆
-###一个专门发现潜在反叛者的行业自身也正面对着一些搅局者
-
-#工资只降不升，怎么办？（低工资的经济学分析）
-### 即便经济回暖，富裕国家劳工薪酬仍旧冰封。政客苦寻对策，却可能弄巧成拙
-
-#厌倦了膨胀的美联储（美国的金融管制）
-### 前央行行长把矛头对准了自己人
-
-#休克疗法
-###州政府金融监管官员惹争议
-
-#下一件大事
-### 或者不是？
-
-#积少成多（支付）
-###如果你有钱--甚至即使你没钱--你现在都可以用各种方式买单
-
-#很酷（众筹）
-###被银行拒绝的小企业可以从这里贷款
-
-#古吉拉特邦模式（印度经济）
-###莫迪经济学如何在印度宜商之邦锻造成型
-
-#取之于民，用之于民（P2P借贷）
-###但金融民主化能扛过经济衰退期吗？
-
-#明抢暗剑（国际银行业）
-###金融科技会让银行变得更弱势，盈利减少。但它不太可能让银行完全消失
-
-#“欠条”诱惑
-###希腊或许可以靠打欠条缓解现金短缺，但这只能解燃眉之急
-
-#交易手段
-###货币体系一直由国家推行
-
-#危机之前，未雨绸缪
-###监管希望让银行倒闭更容易，此举决定银行生存环境
-
-#冻结（市场流动性）
-###监管令银行更安全，但令市场风险更高？
-
-#对手众多（中国在非洲）
-###中国在非洲影响已很大，但现在遭遇抵触情绪
-
-#农场门口的野蛮人（投资农业）
-###吃苦耐劳的投资者正在寻求生财之道
-
-#在市场上播种
-###一家非营利性机构证明农村合作社能成为安全且盈利的借款人
-
-#手机星球
-###智能手机无处不在，叫人上瘾，变革世界
-
-#人工智能的黎明
-###强大的电脑将重塑人类未来。如何确保希望大于危险
-
-#需要一场绿色革命
-###企业如何能帮助解决亚洲的环境问题
-
-#硅谷一尝食滋味
-###科技创业公司进军食品行业，用植物可持续制造肉奶制品
  
 
 
@@ -452,21 +341,24 @@ ____
 
 2.
 update
-circle.r = float(mouseX) / ofGetwidth() * 255;
-ciircleColor.r = ofMap(mouseX, 0, ofGetwidth(), 0, 255);
 
-circleColor.r = ofMap(mouseX, 0, ofGetWidth(), 0, 255);
-
-pos = pos + vel;
+	circle.r = float(mouseX) / ofGetwidth() * 255;
+	ciircleColor.r = ofMap(mouseX, 0, ofGetwidth(), 0, 255);
+	
+	circleColor.r = ofMap(mouseX, 0, ofGetWidth(), 0, 255);
+	
+	pos = pos + vel;
 
 ____
 
 3.
 draw
 
-ofFill();
-ofsetColor(barColor);
-ofDrawrectangle(0, 374, ofGetWidth(), 20);
+	ofFill();
+	
+	ofsetColor(barColor);
+	
+	ofDrawrectangle(0, 374, ofGetWidth(), 20);
 
 	float yPos = ofGetHeight()/5;
 	
@@ -481,47 +373,48 @@ ____
 4.
 KeyPressed
 
-if(key == 'f'){
-  myVideo.setFrame()0;
-  }
+	if(key == 'f'){
+	  myVideo.setFrame()0;
+	  }
+	  
+	  if(key == OF_KEY_LEFT){
+	     int prevFrame = myVideo.getCurrentFrame() - 1;
+	     myVideo.setFrame(prevFrame);
+	  }
+	  
+	  
+	  if(key == OF_KEY_RIGHT){
+	  
+	 int nextFrame = myVideo.getCurrentFrame() + 1;
+	 myVideo.setFrame(prevFrame);
+	  
+	  
+	  }   
   
-  if(key == OF_KEY_LEFT){
-     int prevFrame = myVideo.getCurrentFrame() - 1;
-     myVideo.setFrame(prevFrame);
-  }
   
+  5.GUI
   
-  if(key == OF_KEY_RIGHT){
-  
-     int nextFrame = myVideo.getCurrentFrame() + 1;
-     myVideo.setFrame(prevFrame);
-  
-  
-  }   
-  
-  
-  GUI:
-  setup
-  radius.set("radius", 15.0, 10.0, 100.0);
-  circleColor.set("circleColor",
-                   ofColor(150, 23, 41),
-                   ofColor(0, 0, 0),
-                   ofColor(255, 255, 255, 255));
-                   
-   circleResolution = 8;
-   
-   myPanel.setup();
-   myPanel.add(radiius);
-   myPanel.add(circleColor);
-   
-   
-   update
-   circleResolution = ofMap(mouseX, 0, ofGetWidth(), 3, 8);
+	  setup
+	  radius.set("radius", 15.0, 10.0, 100.0);
+	  circleColor.set("circleColor",
+	                   ofColor(150, 23, 41),
+	                   ofColor(0, 0, 0),
+	                   ofColor(255, 255, 255, 255));
+	                   
+	   circleResolution = 8;
+	   
+	   myPanel.setup();
+	   myPanel.add(radiius);
+	   myPanel.add(circleColor);
+	   
+	   
+	   update
+	   circleResolution = ofMap(mouseX, 0, ofGetWidth(), 3, 8);
    
    
 ____  
 
-5.Shadertoy语法
+6.Shadertoy语法
 
 	ST：vec3 col = texture2D(iChannel0, vec2(uv.x, -uv.y * prop)).xyz;
 
@@ -544,9 +437,9 @@ ____
 ____	
 
 
-6.OSC不是为这种不间断、大量原始数据传输而设计的，不是慢的问题，而是丢数据。
+7.OSC不是为这种不间断、大量原始数据传输而设计的，不是慢的问题，而是丢数据。
 
-7.UDP:User Datagram Protocol，缩写为UDP，又称使用者资料包协定，是一个简单的面向数据报的传输层协议(轻量级 TCP)
+8.UDP:User Datagram Protocol，缩写为UDP，又称使用者资料包协定，是一个简单的面向数据报的传输层协议(轻量级 TCP)
 
 ____
 	
@@ -630,21 +523,18 @@ Data story studio
 	//背景渐变
 	
 	
-
-
-####ofSetVerticalSync( true );
 ____
 
 ####ofdrawBitmapstringHighlight("title", x, y);  里面的Highlight是黑底白字效果。
 ___
 
-####ofPushMatrix();
-####ofTranslate(350, 125);
-####ofPopMatrix();
+	ofSetVerticalSync( true );
+	ofPushMatrix();
+	ofTranslate(350, 125);
+	ofPopMatrix();
+	
+	平移坐标时，相关的for loop 要放到他们中间
 
-####平移坐标时，相关的for loop 要放到他们中间
-
-####megenta洋红色
 
 ____
 
